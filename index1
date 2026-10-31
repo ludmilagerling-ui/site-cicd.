@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Киновселенная Marvel · Рейтинг героев</title>
+  <!-- Подключаем внешний файл со стилями -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- НАВИГАЦИЯ -->
+  <nav class="navbar" aria-label="Основная навигация">
+    <div class="logo">
+      <span aria-hidden="true">Ⓜ</span> MARVEL RANK
+    </div>
+    <div class="nav-links">
+      <a href="#about">О проекте</a>
+      <a href="#heroes">Герои</a>
+      <a href="#rating">Рейтинг</a>
+      <a href="#contacts">Контакты</a>
+    </div>
+  </nav>
+
+  <!-- ГЛАВНЫЙ РАЗДЕЛ -->
+  <section class="hero-section" id="home">
+    <h1>Кто самый сильный герой?</h1>
+    <p>Фанатский рейтинг силы персонажей киновселенной Marvel. Голосуй, сравнивай, спорь.</p>
+    <a href="#rating" class="btn-cta">Смотреть рейтинг</a>
+  </section>
+
+  <!-- О ПРОЕКТЕ -->
+  <section id="about" class="about-section">
+    <h2>О проекте</h2>
+    <p>Это <span class="highlight">фанатский рейтинг героев Marvel</span>, созданный для сравнения их силы, ловкости и интеллекта. Мы проанализировали сотни комиксов и фильмов, чтобы расставить приоритеты.</p>
+    <p>Здесь вы найдёте восемь ключевых персонажей — от гения-миллиардера до мастера мистических искусств. Оценки субъективны, но основаны на фанатском консенсусе.</p>
+  </section>
+
+  <!-- КАРТОЧКИ ГЕРОЕВ -->
+  <section id="heroes">
+    <h2>Герои</h2>
+    <div class="cards-grid">
+
+      <div class="hero-card">
+        <img class="hero-photo" src="images/tony-stark.jpg" alt="Тони Старк" loading="lazy" decoding="async">
+        <h3>Тони Старк</h3>
+        <div class="hero-alias">Железный человек</div>
+        <p class="hero-desc">Гений, миллиардер, филантроп. Экзокостюмы с ИИ, репульсоры, полёт, сверхпрочная броня.</p>
+        <div class="power-level">Сила: 88/100</div>
+      </div>
+
+      <div class="hero-card">
+        <img class="hero-photo" src="images/bruce-banner.jpg" alt="Брюс Беннер" loading="lazy" decoding="async">
+        <h3>Брюс Беннер</h3>
+        <div class="hero-alias">Халк</div>
+        <p class="hero-desc">Невероятная сила, регенерация, выносливость. Чем злее — тем мощнее. Разрушитель планет.</p>
+        <div class="power-level">Сила: 98/100</div>
+      </div>
+
+      <div class="hero-card">
+        <img class="hero-photo" src="images/thor.jpg" alt="Тор" loading="lazy" decoding="async">
+        <h3>Тор</h3>
+        <div class="hero-alias">Бог грома</div>
+        <p class="hero-desc">Управление молниями, божественная сила, полёт, тысячелетний опыт. Мьёльнир и Громсекира.</p>
+        <div class="power-level">Сила: 96/100</div>
+      </div>
+
+      <div class="hero-card">
+        <img class="hero-photo" src="images/natasha-romanoff.jpg" alt="Наташа Романофф" loading="lazy" decoding="async">
+        <h3>Наташа Романофф</h3>
+        <div class="hero-alias">Черная вдова</div>
+        <p class="hero-desc">Мастер шпионажа, акробатика, боевые искусства. Ум, ловкость и «укус вдовы».</p>
+        <div class="power-level">Сила: 72/100</div>
+      </div>
+
+      <div class="hero-card">
+        <img class="hero-photo" src="images/clint-barton.jpg" alt="Клинт Бартон" loading="lazy" decoding="async">
+        <h3>Клинт Бартон</h3>
+        <div class="hero-alias">Соколиный глаз</div>
+        <p class="hero-desc">Идеальный стрелок, тактик, рукопашный бой. Различные стрелы и невероятная точность.</p>
+        <div class="power-level">Сила: 70/100</div>
+      </div>
+
+      <div class="hero-card">
+        <img class="hero-photo" src="images/steve-rogers.jpg" alt="Стив Роджерс" loading="lazy" decoding="async">
+        <h3>Стив Роджерс</h3>
+        <div class="hero-alias">Капитан Америка</div>
+        <p class="hero-desc">Пик человеческой формы, несокрушимая воля, мастер щита. Лидер и стратег.</p>
+        <div class="power-level">Сила: 84/100</div>
+      </div>
+
+      <div class="hero-card">
+        <img class="hero-photo" src="images/peter-parker.jpg" alt="Питер Паркер" loading="lazy" decoding="async">
+        <h3>Питер Паркер</h3>
+        <div class="hero-alias">Человек-паук</div>
+        <p class="hero-desc">Паучье чутьё, суперсила, ловкость, способность лазать по стенам. Гений-самоучка.</p>
+        <div class="power-level">Сила: 82/100</div>
+      </div>
+
+      <div class="hero-card">
+        <img class="hero-photo" src="images/doctor-strange.jpg" alt="Доктор Стрэндж" loading="lazy" decoding="async">
+        <h3>Доктор Стрэндж</h3>
+        <div class="hero-alias">Верховный маг</div>
+        <p class="hero-desc">Магия, телепортация, управление временем, астральная проекция. Глаз Агамотто.</p>
+        <div class="power-level">Сила: 94/100</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- РЕЙТИНГ СИЛЫ -->
+  <section id="rating" class="rating-section">
+    <h2>Рейтинг силы</h2>
+    <div class="rating-list">
+
+      <div class="rating-item high">
+        <div class="hero-info">
+          <img class="hero-avatar" src="images/bruce-banner.jpg" alt="" loading="lazy" decoding="async">
+          Брюс Беннер (Халк)
+        </div>
+        <div class="power-score">98/100</div>
+      </div>
+
+      <div class="rating-item high">
+        <div class="hero-info">
+          <img class="hero-avatar" src="images/thor.jpg" alt="" loading="lazy" decoding="async">
+          Тор
+        </div>
+        <div class="power-score">96/100</div>
+      </div>
+
+      <div class="rating-item high">
+        <div class="hero-info">
+          <img class="hero-avatar" src="images/doctor-strange.jpg" alt="" loading="lazy" decoding="async">
+          Доктор Стрэндж
+        </div>
+        <div class="power-score">94/100</div>
+      </div>
+
+      <div class="rating-item high">
+        <div class="hero-info">
+          <img class="hero-avatar" src="images/tony-stark.jpg" alt="" loading="lazy" decoding="async">
+          Тони Старк
+        </div>
+        <div class="power-score">88/100</div>
+      </div>
+
+      <div class="rating-item medium">
+        <div class="hero-info">
+          <img class="hero-avatar" src="images/steve-rogers.jpg" alt="" loading="lazy" decoding="async">
+          Стив Роджерс
+        </div>
+        <div class="power-score">84/100</div>
+      </div>
+
+      <div class="rating-item medium">
+        <div class="hero-info">
+          <img class="hero-avatar" src="images/peter-parker.jpg" alt="" loading="lazy" decoding="async">
+          Питер Паркер
+        </div>
+        <div class="power-score">82/100</div>
+      </div>
+
+      <div class="rating-item low">
+        <div class="hero-info">
+          <img class="hero-avatar" src="images/natasha-romanoff.jpg" alt="" loading="lazy" decoding="async">
+          Наташа Романофф
+        </div>
+        <div class="power-score">72/100</div>
+      </div>
+
+      <div class="rating-item low">
+        <div class="hero-info">
+          <img class="hero-avatar" src="images/clint-barton.jpg" alt="" loading="lazy" decoding="async">
+          Клинт Бартон
+        </div>
+        <div class="power-score">70/100</div>
+      </div>
+
+    </div>
+    <p class="rating-note">* Оценки основаны на фанатском анализе. Зелёный — высокий, жёлтый — средний, красный — низкий.</p>
+  </section>
+
+  <!-- КОНТАКТЫ -->
+  <section id="contacts" class="contacts-section">
+    <div class="address">
+      <span aria-hidden="true">🏢</span>
+      Башня Мстителей, Нью-Йорк
+    </div>
+    <div class="social-links">
+      <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">🐦 Twitter</a>
+      <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">📸 Instagram</a>
+      <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">▶️ YouTube</a>
+      <a href="https://discord.com" target="_blank" rel="noopener noreferrer">💬 Discord</a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    Ⓒ 2025 Фанатский рейтинг Marvel. Все персонажи принадлежат Marvel Studios.
+  </footer>
+
+</body>
+</html>
